@@ -6,93 +6,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" type="text/css" href="css/kube.css" /> 	
-	<link rel="stylesheet" type="text/css" href="css/master.css" /> 		
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="js/main.js"></script>
-
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->		
+	<style>
+		html { background-color: #F8FFFF; }
+		#page {
+    			text-align: center;
+    			font-size: 6vh;
+    			font-family: Verdana;
+                        white-space: nowrap;
+			margin: 44vh 0 0 0;
+		}
+	</style>
 
 </head>
 <body>
-	<div id="page" class="row">
-		<div class="third">
-			<h3>CSS/HTML</h3>
-			<div>
-				<a href="https://developer.mozilla.org/en-US/docs/HTML/Element" class="gray-dark">Mozilla HTML Docs</a>
-				<form method="get" action="https://developer.mozilla.org/en-US/docs/HTML/Element/" class="forms">
-					<input type="text" name="foo" class="input-search" placeholder="canvas">
-				</form>
-			</div>
-			<div>
-				<a href="http://caniuse.com/" class="gray-dark">Caniuse.com</a>
-				<form method="get" action="http://caniuse.com/#search=" class="forms">
-					<input type="text" name="foo" class="input-search" placeholder="border-radius">
-				</form>
-			</div>
-			<div>
-				<a href="http://html5please.com/" class="gray-dark">HTML 5 Please</a>
-				<form method="get" action="http://html5please.com/#" class="forms">
-					<input type="text" name="foo" class="input-search" placeholder="border-radius">
-				</form>
-			</div>
-			<a href="http://www.quirksmode.org/compatibility.html" class="gray-dark">Quirksmode</a><br>
-			<a href="http://twitter.github.com/bootstrap/scaffolding.html" class="gray-dark">Twitter Bootstrap</a><br>
-			<a href="http://modularscale.com/" class="gray-dark">Modular Scale Font Size Calc</a><br>
-			<br>
-			<h3>PHP</h3>
-			<a href="http://www.php.net/manual/en/index.php" class="gray-dark">PHP Manual</a>
-			<form method="get" action="http://www.php.net/manual/en/function." class="forms" data-append=".php">
-				<input type="text" name="foo" class="input-search" placeholder="strlen">
-			</form>
-		</div>
-		<div class="third">
-			<h3>Javascript</h3>
-			<div>
-				<a href="http://api.jquery.com/" class="gray-dark">jQuery API</a>
-				<form method="get" action="http://api.jquery.com/" class="forms" data-append="/">
-					<input type="text" name="foo" class="input-search" placeholder="hasClass">
-				</form>
-			</div>
-			<a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference" class="gray-dark">Mozilla Javascript Reference</a><br>
-			<a href="http://jsfiddle.net/" class="gray-dark">jsFiddle</a><br>
-			<a href="http://backbonejs.org" class="gray-dark">Backbone.js</a><br>
-			<a href="http://underscorejs.org/" class="gray-dark">Underscore.js</a><br>
-			<a href="http://jsbeautifier.org" class="gray-dark">JS Beautifier</a><br>
-			<a href="http://jsoneditoronline.org/" class="gray-dark">JSON Editor Online</a><br>
-			<br>
-			<h3>Node</h3>
-			<div>
-				<a href="https://npmjs.org/" class="gray-dark">NPM Registry</a>
-				<form method="get" action="https://npmjs.org/package/" class="forms">
-					<input type="text" name="foo" class="input-search" placeholder="express">
-				</form>
-			</div>
-			<a href="http://package.json.nodejitsu.com/" class="gray-dark">package.json</a><br>
-
-		</div>
-		<div class="third">
-			<h3>Ruby / Rails</h3>
-			<a href="http://www.ruby-lang.org/en/documentation/" class="gray-dark">Ruby Documentation</a><br>
-			<a href="http://guides.rubyonrails.org/" class="gray-dark">RoR RailsGuides</a><br>
-			<a href="http://api.rubyonrails.org/" class="gray-dark">RoR Api</a><br>
-			<a href="http://mongoid.org/en/mongoid/docs/querying.html" class="gray-dark">Mongoid</a><br>
-			<a href="http://karmi.github.com/tire/" class="gray-dark">Tire Api</a><br>
-			<br>
-			<h3>Regex</h3>
-			<a href="http://www.debuggex.com/" class="gray-dark">Debuggex</a><br>
-			<a href="http://www.regexper.com/" class="gray-dark">Regexper</a><br>
-			<a href="http://rubular.com/" class="gray-dark">Rubular</a><br>
-			<a href="http://www.regular-expressions.info/reference.html" class="gray-dark">Regex Expressions Reference</a><br>
-			<br>
-			<h3>Database / Search</h3>
-			<a href="http://dev.mysql.com/doc/refman/5.6/en/sql-syntax.html" class="gray-dark">MySQL</a><br>
-			<a href="http://docs.mongodb.org/manual/reference/javascript/" class="gray-dark">mongoDB Shell Reference</a><br>
-			<a href="http://www.elasticsearch.org/guide/" class="gray-dark">ElasticSearch</a><br>
-		</div>
-	</div>
+	<div id="page"></div>
 </body>
 </html>
